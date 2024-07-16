@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github.io/Customer-Transactions-Dashboard/static/css/main.425571be.css",
+    "main.js": "/github.io/Customer-Transactions-Dashboard/static/js/main.ade47d9a.js",
+    "static/js/453.16c03435.chunk.js": "/github.io/Customer-Transactions-Dashboard/static/js/453.16c03435.chunk.js",
+    "index.html": "/github.io/Customer-Transactions-Dashboard/index.html",
+    "main.425571be.css.map": "/github.io/Customer-Transactions-Dashboard/static/css/main.425571be.css.map",
+    "main.ade47d9a.js.map": "/github.io/Customer-Transactions-Dashboard/static/js/main.ade47d9a.js.map",
+    "453.16c03435.chunk.js.map": "/github.io/Customer-Transactions-Dashboard/static/js/453.16c03435.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.425571be.css",
+    "static/js/main.ade47d9a.js"
+  ]
+}
