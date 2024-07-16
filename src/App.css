@@ -1,38 +1,77 @@
 .App {
-  text-align: center;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.customer-list {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.customer-list input {
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+  box-sizing: border-box;
+  border-radius: 50px;
+
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.customer-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.customer-list th, .customer-list td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.customer-list tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.transactions-section {
+  margin-top: 20px;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.transactions-table th, .transactions-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.transactions-table th {
+  background-color: #82ca9d;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.transactions-table td {
+  font-size: 0.85em;
 }
+.transition{
+  margin-left: auto;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  .container{width: 80%;
+
+  text-align: center;margin-top: 30px;};
+
+
+  .cursor-pointer {
+    cursor: pointer;
   }
-}
+  
+  .text-muted {
+    color: #6c757d; /* Adjust text-muted color for better visibility */
+  }
+  
